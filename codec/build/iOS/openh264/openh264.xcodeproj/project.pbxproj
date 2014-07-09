@@ -83,8 +83,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		54D5360E196CC76D005442F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		54D5361F196CC76D005442F9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		54D53634196CC8CB005442F9 /* common.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = common.xcodeproj; path = ../common/common.xcodeproj; sourceTree = "<group>"; };
 		54D5363A196CC8DA005442F9 /* welsdec.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = welsdec.xcodeproj; path = ../dec/welsdec/welsdec.xcodeproj; sourceTree = "<group>"; };
 		54D53640196CC8E6005442F9 /* welsenc.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = welsenc.xcodeproj; path = ../enc/welsenc/welsenc.xcodeproj; sourceTree = "<group>"; };
@@ -114,8 +112,6 @@
 				54D53640196CC8E6005442F9 /* welsenc.xcodeproj */,
 				54D5363A196CC8DA005442F9 /* welsdec.xcodeproj */,
 				54D53634196CC8CB005442F9 /* common.xcodeproj */,
-				54D5360E196CC76D005442F9 /* Foundation.framework */,
-				54D5361F196CC76D005442F9 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
