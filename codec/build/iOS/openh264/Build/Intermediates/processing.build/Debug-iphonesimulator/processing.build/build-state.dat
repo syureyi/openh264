@@ -1,0 +1,839 @@
+Tprocessing
+v6
+r1
+cCheck dependencies
+cCompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/vaacalculation.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/vaacalc/vaacalculation.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/ComplexityAnalysis.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/complexityanalysis/ComplexityAnalysis.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/vaa_calc_neon.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/arm/vaa_calc_neon.S normal x86_64 assembler-with-cpp com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/imagerotate.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/imagerotate/imagerotate.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/common.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/common.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/denoise.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/denoise/denoise.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/WelsFrameWork.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/WelsFrameWork.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/ScrollDetection.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/scrolldetection/ScrollDetection.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/BackgroundDetection.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/backgrounddetection/BackgroundDetection.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/vaacalcfuncs.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/vaacalc/vaacalcfuncs.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/adaptive_quantization.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/arm/adaptive_quantization.S normal x86_64 assembler-with-cpp com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/denoise_filter.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/denoise/denoise_filter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/downsamplefuncs.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/downsample/downsamplefuncs.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/memory.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/memory.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/pixel_sad_neon.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/arm/pixel_sad_neon.S normal x86_64 assembler-with-cpp com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/SceneChangeDetection.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/scenechangedetection/SceneChangeDetection.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/ScrollDetectionFuncs.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/scrolldetection/ScrollDetectionFuncs.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/imagerotatefuncs.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/imagerotate/imagerotatefuncs.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/AdaptiveQuantization.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/adaptivequantization/AdaptiveQuantization.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/downsample.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/downsample/downsample.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/WelsFrameWorkEx.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/WelsFrameWorkEx.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/down_sample_neon.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/arm/down_sample_neon.S normal x86_64 assembler-with-cpp com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator/libprocessing.a normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c0000000053119F8A0000000000000198
+t1393663882
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c00000000539174AE00000000000003B4
+t1402041518
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000539174B5000000000000019E
+t1402041525
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000539174BA000000000088D8C0
+t1402041530
+s8968384
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c00000000539175020000000000000ADC
+t1402041602
+s2780
+
+N/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/AdaptiveQuantization.o
+t1405043460
+s25512
+
+N/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/BackgroundDetection.o
+t1405043456
+s35216
+
+N/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/ComplexityAnalysis.o
+t1405043453
+s37420
+
+N/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/SceneChangeDetection.o
+t1405043459
+s37736
+
+N/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/ScrollDetection.o
+t1405043455
+s15268
+
+N/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/ScrollDetectionFuncs.o
+t1405043459
+s11536
+
+N/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/WelsFrameWork.o
+t1405043455
+s31408
+
+N/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/WelsFrameWorkEx.o
+t1405043460
+s10416
+
+N/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/adaptive_quantization.o
+t1405043456
+s568
+
+N/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/common.o
+t1405043454
+s4468
+
+N/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/denoise.o
+t1405043454
+s20316
+
+N/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/denoise_filter.o
+t1405043457
+s6940
+
+N/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/down_sample_neon.o
+t1405043461
+s560
+
+N/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/downsample.o
+t1405043460
+s19916
+
+N/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/downsamplefuncs.o
+t1405043457
+s9304
+
+N/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/imagerotate.o
+t1405043453
+s19320
+
+N/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/imagerotatefuncs.o
+t1405043459
+s5392
+
+N/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/memory.o
+t1405043458
+s6456
+
+N/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/pixel_sad_neon.o
+t1405043458
+s560
+
+N/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/processing.LinkFileList
+c0000000053BF42FC0000000000000F53
+t1405043452
+s3923
+
+N/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/vaa_calc_neon.o
+t1405043453
+s560
+
+N/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/vaacalcfuncs.o
+t1405043456
+s23132
+
+N/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/vaacalculation.o
+t1405043453
+s21240
+
+N/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator/libprocessing.a
+t2
+s0
+
+N/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/adaptivequantization/AdaptiveQuantization.cpp
+c0000000053BF4239000000000000280B
+t1405043257
+s10251
+
+N/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/arm/adaptive_quantization.S
+c0000000053BF42390000000000000C9B
+t1405043257
+s3227
+
+N/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/arm/down_sample_neon.S
+c0000000053BF42390000000000002100
+t1405043257
+s8448
+
+N/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/arm/pixel_sad_neon.S
+c0000000053BF42390000000000000881
+t1405043257
+s2177
+
+N/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/arm/vaa_calc_neon.S
+c0000000053BF42390000000000007803
+t1405043257
+s30723
+
+N/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/backgrounddetection/BackgroundDetection.cpp
+c0000000053BF42390000000000003F86
+t1405043257
+s16262
+
+N/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/WelsFrameWork.cpp
+c0000000053BF4239000000000000244B
+t1405043257
+s9291
+
+N/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/WelsFrameWorkEx.cpp
+c0000000053BF42390000000000000E06
+t1405043257
+s3590
+
+N/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/common.cpp
+c0000000053BF423900000000000009D4
+t1405043257
+s2516
+
+N/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/memory.cpp
+c0000000053BF42390000000000000FDC
+t1405043257
+s4060
+
+N/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/complexityanalysis/ComplexityAnalysis.cpp
+c0000000053BF42390000000000003D7E
+t1405043257
+s15742
+
+N/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/denoise/denoise.cpp
+c0000000053BF42390000000000001178
+t1405043257
+s4472
+
+N/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/denoise/denoise_filter.cpp
+c0000000053BF42390000000000001215
+t1405043257
+s4629
+
+N/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/downsample/downsample.cpp
+c0000000053BF42390000000000001B77
+t1405043257
+s7031
+
+N/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/downsample/downsamplefuncs.cpp
+c0000000053BF4239000000000000280B
+t1405043257
+s10251
+
+N/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/imagerotate/imagerotate.cpp
+c0000000053BF42390000000000000FB6
+t1405043257
+s4022
+
+N/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/imagerotate/imagerotatefuncs.cpp
+c0000000053BF42390000000000000AED
+t1405043257
+s2797
+
+N/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/scenechangedetection/SceneChangeDetection.cpp
+c0000000053BF423900000000000007FA
+t1405043257
+s2042
+
+N/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/scrolldetection/ScrollDetection.cpp
+c0000000053BF423900000000000010E7
+t1405043257
+s4327
+
+N/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/scrolldetection/ScrollDetectionFuncs.cpp
+c0000000053BF42390000000000001A6A
+t1405043257
+s6762
+
+N/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/vaacalc/vaacalcfuncs.cpp
+c0000000053BF42390000000000004C6E
+t1405043257
+s19566
+
+N/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/vaacalc/vaacalculation.cpp
+c0000000053BF423900000000000014C8
+t1405043257
+s5320
+
+CBuild AST from /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/adaptivequantization/AdaptiveQuantization.cpp
+r0
+
+CBuild AST from /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/backgrounddetection/BackgroundDetection.cpp
+r0
+
+CBuild AST from /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/WelsFrameWork.cpp
+r0
+
+CBuild AST from /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/WelsFrameWorkEx.cpp
+r0
+
+CBuild AST from /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/common.cpp
+r0
+
+CBuild AST from /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/memory.cpp
+r0
+
+CBuild AST from /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/complexityanalysis/ComplexityAnalysis.cpp
+r0
+
+CBuild AST from /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/denoise/denoise.cpp
+r0
+
+CBuild AST from /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/denoise/denoise_filter.cpp
+r0
+
+CBuild AST from /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/downsample/downsample.cpp
+r0
+
+CBuild AST from /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/downsample/downsamplefuncs.cpp
+r0
+
+CBuild AST from /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/imagerotate/imagerotate.cpp
+r0
+
+CBuild AST from /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/imagerotate/imagerotatefuncs.cpp
+r0
+
+CBuild AST from /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/scenechangedetection/SceneChangeDetection.cpp
+r0
+
+CBuild AST from /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/scrolldetection/ScrollDetection.cpp
+r0
+
+CBuild AST from /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/scrolldetection/ScrollDetectionFuncs.cpp
+r0
+
+CBuild AST from /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/vaacalc/vaacalcfuncs.cpp
+r0
+
+CBuild AST from /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/vaacalc/vaacalculation.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies61a6257c7a6fb941^9a25497c7a6fb941^---0#1#1#--18"Check dependencies36"64CA33E2-A9D5-4DDE-B797-37A74F0B4A03-
+
+CCompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/AdaptiveQuantization.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/adaptivequantization/AdaptiveQuantization.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s426736260.441259
+e426736260.516782
+r1
+xCompileC
+x/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/AdaptiveQuantization.o
+x/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/adaptivequantization/AdaptiveQuantization.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/adaptivequantization/AdaptiveQuantization.cpp
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/adaptivequantization/AdaptiveQuantization.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/util.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/typedef.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/memory.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/interface/IWelsVP.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/WelsFrameWork.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/WelsThreadLib.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/typedefs.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/cpu.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/cpu_core.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/macros.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/adaptivequantization/AdaptiveQuantization.cpp359"CompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/AdaptiveQuantization.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/adaptivequantization/AdaptiveQuantization.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerd40c71847a6fb941^384c84847a6fb941^---0#0#1#-19%DVTDocumentLocation2@111"file:///Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/adaptivequantization/AdaptiveQuantization.cpp0000000000000000^4395"CompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/AdaptiveQuantization.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/adaptivequantization/AdaptiveQuantization.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/yongzxu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DAPPLE_IOS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -mios-simulator-version-min=7.1 -iquote /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-generated-files.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-own-target-headers.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-all-target-headers.hmap -iquote /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-project-headers.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../processing/interface -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../processing/src/common -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/inc -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/arm64 -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/arm -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/DerivedSources/x86_64 -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/DerivedSources -F/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator -MMD -MT dependencies -MF /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/AdaptiveQuantization.d --serialize-diagnostics /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/AdaptiveQuantization.dia -c /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/adaptivequantization/AdaptiveQuantization.cpp -o /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/AdaptiveQuantization.o36"73CA73B7-EBF2-4938-B856-9CD56C0AC1F6-
+bA716EF59-4505-468E-AF80-2C6B71BDEF72
+
+CCompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/BackgroundDetection.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/backgrounddetection/BackgroundDetection.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s426736255.933252
+e426736256.018087
+r1
+xCompileC
+x/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/BackgroundDetection.o
+x/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/backgrounddetection/BackgroundDetection.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/backgrounddetection/BackgroundDetection.cpp
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/backgrounddetection/BackgroundDetection.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/util.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/typedef.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/memory.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/interface/IWelsVP.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/WelsFrameWork.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/WelsThreadLib.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/typedefs.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/backgrounddetection/BackgroundDetection.cpp356"CompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/BackgroundDetection.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/backgrounddetection/BackgroundDetection.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler0001ef7f7a6fb941^77a204807a6fb941^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/backgrounddetection/BackgroundDetection.cpp0000000000000000^4387"CompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/BackgroundDetection.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/backgrounddetection/BackgroundDetection.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/yongzxu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DAPPLE_IOS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -mios-simulator-version-min=7.1 -iquote /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-generated-files.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-own-target-headers.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-all-target-headers.hmap -iquote /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-project-headers.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../processing/interface -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../processing/src/common -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/inc -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/arm64 -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/arm -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/DerivedSources/x86_64 -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/DerivedSources -F/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator -MMD -MT dependencies -MF /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/BackgroundDetection.d --serialize-diagnostics /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/BackgroundDetection.dia -c /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/backgrounddetection/BackgroundDetection.cpp -o /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/BackgroundDetection.o36"3FBEE2A3-C8F3-4052-A97A-137D34B81872-
+bA716EF59-4505-468E-AF80-2C6B71BDEF72
+
+CCompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/ComplexityAnalysis.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/complexityanalysis/ComplexityAnalysis.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s426736252.287057
+e426736253.248446
+r1
+xCompileC
+x/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/ComplexityAnalysis.o
+x/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/complexityanalysis/ComplexityAnalysis.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/complexityanalysis/ComplexityAnalysis.cpp
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/complexityanalysis/ComplexityAnalysis.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/util.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/typedef.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/memory.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/interface/IWelsVP.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/WelsFrameWork.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/WelsThreadLib.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/typedefs.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/common.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/sad_common.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/cpu.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/cpu_core.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/macros.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/complexityanalysis/ComplexityAnalysis.cpp353"CompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/ComplexityAnalysis.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/complexityanalysis/ComplexityAnalysis.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler7ba0497c7a6fb941^72a43f7d7a6fb941^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/complexityanalysis/ComplexityAnalysis.cpp0000000000000000^4379"CompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/ComplexityAnalysis.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/complexityanalysis/ComplexityAnalysis.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/yongzxu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DAPPLE_IOS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -mios-simulator-version-min=7.1 -iquote /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-generated-files.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-own-target-headers.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-all-target-headers.hmap -iquote /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-project-headers.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../processing/interface -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../processing/src/common -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/inc -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/arm64 -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/arm -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/DerivedSources/x86_64 -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/DerivedSources -F/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator -MMD -MT dependencies -MF /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/ComplexityAnalysis.d --serialize-diagnostics /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/ComplexityAnalysis.dia -c /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/complexityanalysis/ComplexityAnalysis.cpp -o /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/ComplexityAnalysis.o36"BB50BECE-755C-4958-A9CC-22FD351048A2-
+bA716EF59-4505-468E-AF80-2C6B71BDEF72
+
+CCompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/SceneChangeDetection.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/scenechangedetection/SceneChangeDetection.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s426736258.975585
+e426736259.054582
+r1
+xCompileC
+x/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/SceneChangeDetection.o
+x/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/scenechangedetection/SceneChangeDetection.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/scenechangedetection/SceneChangeDetection.cpp
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/scenechangedetection/SceneChangeDetection.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/util.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/typedef.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/memory.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/interface/IWelsVP.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/cpu.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/typedefs.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/cpu_core.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/WelsFrameWork.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/WelsThreadLib.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/common.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/sad_common.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/scenechangedetection/SceneChangeDetection.cpp359"CompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/SceneChangeDetection.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/scenechangedetection/SceneChangeDetection.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler41d8f9827a6fb941^cff90d837a6fb941^---0#0#1#-19%DVTDocumentLocation2@111"file:///Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/scenechangedetection/SceneChangeDetection.cpp0000000000000000^4395"CompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/SceneChangeDetection.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/scenechangedetection/SceneChangeDetection.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/yongzxu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DAPPLE_IOS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -mios-simulator-version-min=7.1 -iquote /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-generated-files.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-own-target-headers.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-all-target-headers.hmap -iquote /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-project-headers.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../processing/interface -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../processing/src/common -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/inc -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/arm64 -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/arm -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/DerivedSources/x86_64 -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/DerivedSources -F/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator -MMD -MT dependencies -MF /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/SceneChangeDetection.d --serialize-diagnostics /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/SceneChangeDetection.dia -c /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/scenechangedetection/SceneChangeDetection.cpp -o /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/SceneChangeDetection.o36"9BAD8C8A-3433-43AC-A485-D5648C5C19E8-
+bA716EF59-4505-468E-AF80-2C6B71BDEF72
+
+CCompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/ScrollDetection.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/scrolldetection/ScrollDetection.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s426736255.414387
+e426736255.477211
+r1
+xCompileC
+x/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/ScrollDetection.o
+x/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/scrolldetection/ScrollDetection.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/scrolldetection/ScrollDetection.cpp
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/scrolldetection/ScrollDetection.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/util.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/typedef.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/memory.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/interface/IWelsVP.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/WelsFrameWork.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/WelsThreadLib.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/typedefs.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/scrolldetection/ScrollDetectionFuncs.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/cpu.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/cpu_core.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/scrolldetection/ScrollDetection.cpp344"CompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/ScrollDetection.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/scrolldetection/ScrollDetection.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler7e366a7f7a6fb941^8c2b7a7f7a6fb941^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/scrolldetection/ScrollDetection.cpp0000000000000000^4355"CompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/ScrollDetection.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/scrolldetection/ScrollDetection.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/yongzxu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DAPPLE_IOS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -mios-simulator-version-min=7.1 -iquote /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-generated-files.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-own-target-headers.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-all-target-headers.hmap -iquote /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-project-headers.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../processing/interface -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../processing/src/common -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/inc -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/arm64 -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/arm -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/DerivedSources/x86_64 -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/DerivedSources -F/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator -MMD -MT dependencies -MF /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/ScrollDetection.d --serialize-diagnostics /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/ScrollDetection.dia -c /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/scrolldetection/ScrollDetection.cpp -o /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/ScrollDetection.o36"4D71AD65-D0F7-4BFC-8988-1EE00DD215EF-
+bA716EF59-4505-468E-AF80-2C6B71BDEF72
+
+CCompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/ScrollDetectionFuncs.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/scrolldetection/ScrollDetectionFuncs.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s426736259.698639
+e426736259.761559
+r1
+xCompileC
+x/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/ScrollDetectionFuncs.o
+x/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/scrolldetection/ScrollDetectionFuncs.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/scrolldetection/ScrollDetectionFuncs.cpp
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/scrolldetection/ScrollDetection.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/util.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/typedef.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/memory.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/interface/IWelsVP.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/WelsFrameWork.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/WelsThreadLib.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/typedefs.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/scrolldetection/ScrollDetectionFuncs.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/ls_defines.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/scrolldetection/ScrollDetectionFuncs.cpp354"CompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/ScrollDetectionFuncs.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/scrolldetection/ScrollDetectionFuncs.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler56f1b2837a6fb941^0ef6c2837a6fb941^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/scrolldetection/ScrollDetectionFuncs.cpp0000000000000000^4385"CompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/ScrollDetectionFuncs.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/scrolldetection/ScrollDetectionFuncs.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/yongzxu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DAPPLE_IOS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -mios-simulator-version-min=7.1 -iquote /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-generated-files.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-own-target-headers.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-all-target-headers.hmap -iquote /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-project-headers.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../processing/interface -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../processing/src/common -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/inc -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/arm64 -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/arm -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/DerivedSources/x86_64 -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/DerivedSources -F/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator -MMD -MT dependencies -MF /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/ScrollDetectionFuncs.d --serialize-diagnostics /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/ScrollDetectionFuncs.dia -c /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/scrolldetection/ScrollDetectionFuncs.cpp -o /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/ScrollDetectionFuncs.o36"1FE4FA4E-A2BF-4E7E-B7A9-41573AF32272-
+bA716EF59-4505-468E-AF80-2C6B71BDEF72
+
+CCompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/WelsFrameWork.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/WelsFrameWork.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s426736254.964072
+e426736255.118640
+r1
+xCompileC
+x/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/WelsFrameWork.o
+x/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/WelsFrameWork.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/WelsFrameWork.cpp
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/WelsFrameWork.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/interface/IWelsVP.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/util.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/typedef.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/memory.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/WelsThreadLib.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/typedefs.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/denoise/denoise.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/downsample/downsample.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/macros.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/scrolldetection/ScrollDetection.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/scenechangedetection/SceneChangeDetection.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/cpu.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/cpu_core.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/common.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/sad_common.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/vaacalc/vaacalculation.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/backgrounddetection/BackgroundDetection.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/adaptivequantization/AdaptiveQuantization.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/complexityanalysis/ComplexityAnalysis.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/imagerotate/imagerotate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/WelsFrameWork.cpp331"CompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/WelsFrameWork.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/WelsFrameWork.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerc5e7f67e7a6fb941^a65f1e7f7a6fb941^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/WelsFrameWork.cpp0000000000000000^4325"CompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/WelsFrameWork.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/WelsFrameWork.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/yongzxu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DAPPLE_IOS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -mios-simulator-version-min=7.1 -iquote /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-generated-files.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-own-target-headers.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-all-target-headers.hmap -iquote /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-project-headers.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../processing/interface -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../processing/src/common -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/inc -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/arm64 -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/arm -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/DerivedSources/x86_64 -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/DerivedSources -F/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator -MMD -MT dependencies -MF /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/WelsFrameWork.d --serialize-diagnostics /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/WelsFrameWork.dia -c /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/WelsFrameWork.cpp -o /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/WelsFrameWork.o36"10703383-FA1A-4D9A-8128-C65B9B488978-
+bA716EF59-4505-468E-AF80-2C6B71BDEF72
+
+CCompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/WelsFrameWorkEx.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/WelsFrameWorkEx.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s426736260.737997
+e426736260.830182
+r1
+xCompileC
+x/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/WelsFrameWorkEx.o
+x/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/WelsFrameWorkEx.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/WelsFrameWorkEx.cpp
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/WelsFrameWork.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/interface/IWelsVP.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/util.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/typedef.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/memory.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/WelsThreadLib.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/typedefs.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/WelsFrameWorkEx.cpp335"CompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/WelsFrameWorkEx.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/WelsFrameWorkEx.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler840fbd847a6fb941^7f85d4847a6fb941^---0#0#1#-19%DVTDocumentLocation2@92"file:///Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/WelsFrameWorkEx.cpp0000000000000000^4337"CompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/WelsFrameWorkEx.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/WelsFrameWorkEx.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/yongzxu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DAPPLE_IOS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -mios-simulator-version-min=7.1 -iquote /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-generated-files.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-own-target-headers.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-all-target-headers.hmap -iquote /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-project-headers.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../processing/interface -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../processing/src/common -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/inc -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/arm64 -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/arm -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/DerivedSources/x86_64 -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/DerivedSources -F/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator -MMD -MT dependencies -MF /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/WelsFrameWorkEx.d --serialize-diagnostics /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/WelsFrameWorkEx.dia -c /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/WelsFrameWorkEx.cpp -o /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/WelsFrameWorkEx.o36"734E19C9-DE6F-483D-A2AA-B001CD8782C1-
+bA716EF59-4505-468E-AF80-2C6B71BDEF72
+
+CCompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/adaptive_quantization.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/arm/adaptive_quantization.S normal x86_64 assembler-with-cpp com.apple.compilers.llvm.clang.1_0.compiler
+s426736256.955996
+e426736256.973421
+r1
+xCompileC
+x/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/adaptive_quantization.o
+x/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/arm/adaptive_quantization.S
+xnormal
+xx86_64
+xassembler-with-cpp
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/arm/adaptive_quantization.S
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/arm/adaptive_quantization.S357"CompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/adaptive_quantization.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/arm/adaptive_quantization.S normal x86_64 assembler-with-cpp com.apple.compilers.llvm.clang.1_0.compilerb3d2f4807a6fb941^e832f9807a6fb941^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/arm/adaptive_quantization.S0000000000000000^4251"CompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/adaptive_quantization.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/arm/adaptive_quantization.S normal x86_64 assembler-with-cpp com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x assembler-with-cpp -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fmodules -fmodules-cache-path=/Users/yongzxu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -DAPPLE_IOS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -mios-simulator-version-min=7.1 -iquote /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-generated-files.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-own-target-headers.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-all-target-headers.hmap -iquote /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-project-headers.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../processing/interface -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../processing/src/common -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/inc -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/arm64 -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/arm -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/DerivedSources/x86_64 -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/DerivedSources -F/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator -MMD -MT dependencies -MF /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/adaptive_quantization.d --serialize-diagnostics /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/adaptive_quantization.dia -c /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/arm/adaptive_quantization.S -o /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/adaptive_quantization.o36"18FCC546-08DE-4A7A-9171-600809758F57-
+bA716EF59-4505-468E-AF80-2C6B71BDEF72
+
+CCompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/common.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/common.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s426736254.129147
+e426736254.244913
+r1
+xCompileC
+x/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/common.o
+x/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/common.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/common.cpp
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/common.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/util.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/typedef.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/memory.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/interface/IWelsVP.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/WelsFrameWork.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/WelsThreadLib.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/typedefs.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/sad_common.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/ls_defines.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/common.cpp317"CompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/common.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/common.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerbf2c217e7a6fb941^28b63e7e7a6fb941^---0#0#1#-19%DVTDocumentLocation2@83"file:///Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/common.cpp0000000000000000^4283"CompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/common.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/common.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/yongzxu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DAPPLE_IOS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -mios-simulator-version-min=7.1 -iquote /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-generated-files.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-own-target-headers.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-all-target-headers.hmap -iquote /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-project-headers.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../processing/interface -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../processing/src/common -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/inc -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/arm64 -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/arm -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/DerivedSources/x86_64 -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/DerivedSources -F/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator -MMD -MT dependencies -MF /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/common.d --serialize-diagnostics /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/common.dia -c /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/common.cpp -o /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/common.o36"B439F11C-E00E-4D29-89E7-FE5EADFE7096-
+bA716EF59-4505-468E-AF80-2C6B71BDEF72
+
+CCompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/denoise.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/denoise/denoise.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s426736254.663957
+e426736254.747475
+r1
+xCompileC
+x/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/denoise.o
+x/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/denoise/denoise.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/denoise/denoise.cpp
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/denoise/denoise.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/util.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/typedef.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/memory.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/interface/IWelsVP.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/WelsFrameWork.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/WelsThreadLib.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/typedefs.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/cpu.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/cpu_core.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/denoise/denoise.cpp320"CompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/denoise.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/denoise/denoise.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler7f13aa7e7a6fb941^c95abf7e7a6fb941^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/denoise/denoise.cpp0000000000000000^4291"CompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/denoise.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/denoise/denoise.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/yongzxu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DAPPLE_IOS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -mios-simulator-version-min=7.1 -iquote /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-generated-files.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-own-target-headers.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-all-target-headers.hmap -iquote /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-project-headers.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../processing/interface -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../processing/src/common -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/inc -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/arm64 -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/arm -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/DerivedSources/x86_64 -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/DerivedSources -F/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator -MMD -MT dependencies -MF /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/denoise.d --serialize-diagnostics /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/denoise.dia -c /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/denoise/denoise.cpp -o /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/denoise.o36"281A9627-DA83-4B6A-A8D0-3CC389D56713-
+bA716EF59-4505-468E-AF80-2C6B71BDEF72
+
+CCompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/denoise_filter.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/denoise/denoise_filter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s426736257.086294
+e426736257.156995
+r1
+xCompileC
+x/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/denoise_filter.o
+x/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/denoise/denoise_filter.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/denoise/denoise_filter.cpp
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/denoise/denoise.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/util.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/typedef.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/memory.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/interface/IWelsVP.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/WelsFrameWork.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/WelsThreadLib.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/typedefs.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/denoise/denoise_filter.cpp334"CompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/denoise_filter.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/denoise/denoise_filter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler732d16817a6fb941^483128817a6fb941^---0#0#1#-19%DVTDocumentLocation2@92"file:///Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/denoise/denoise_filter.cpp0000000000000000^4333"CompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/denoise_filter.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/denoise/denoise_filter.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/yongzxu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DAPPLE_IOS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -mios-simulator-version-min=7.1 -iquote /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-generated-files.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-own-target-headers.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-all-target-headers.hmap -iquote /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-project-headers.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../processing/interface -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../processing/src/common -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/inc -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/arm64 -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/arm -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/DerivedSources/x86_64 -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/DerivedSources -F/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator -MMD -MT dependencies -MF /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/denoise_filter.d --serialize-diagnostics /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/denoise_filter.dia -c /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/denoise/denoise_filter.cpp -o /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/denoise_filter.o36"050C4EC0-D1CA-4487-8AF0-4758BC846BCA-
+bA716EF59-4505-468E-AF80-2C6B71BDEF72
+
+CCompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/down_sample_neon.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/arm/down_sample_neon.S normal x86_64 assembler-with-cpp com.apple.compilers.llvm.clang.1_0.compiler
+s426736261.190452
+e426736261.207441
+r1
+xCompileC
+x/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/down_sample_neon.o
+x/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/arm/down_sample_neon.S
+xnormal
+xx86_64
+xassembler-with-cpp
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/arm/down_sample_neon.S
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/arm/down_sample_neon.S347"CompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/down_sample_neon.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/arm/down_sample_neon.S normal x86_64 assembler-with-cpp com.apple.compilers.llvm.clang.1_0.compiler1fd930857a6fb941^501b35857a6fb941^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/arm/down_sample_neon.S0000000000000000^4221"CompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/down_sample_neon.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/arm/down_sample_neon.S normal x86_64 assembler-with-cpp com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x assembler-with-cpp -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fmodules -fmodules-cache-path=/Users/yongzxu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -DAPPLE_IOS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -mios-simulator-version-min=7.1 -iquote /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-generated-files.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-own-target-headers.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-all-target-headers.hmap -iquote /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-project-headers.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../processing/interface -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../processing/src/common -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/inc -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/arm64 -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/arm -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/DerivedSources/x86_64 -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/DerivedSources -F/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator -MMD -MT dependencies -MF /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/down_sample_neon.d --serialize-diagnostics /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/down_sample_neon.dia -c /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/arm/down_sample_neon.S -o /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/down_sample_neon.o36"E73CF133-5407-4665-B6D6-E907CD5CF411-
+bA716EF59-4505-468E-AF80-2C6B71BDEF72
+
+CCompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/downsample.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/downsample/downsample.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s426736260.622277
+e426736260.700751
+r1
+xCompileC
+x/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/downsample.o
+x/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/downsample/downsample.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/downsample/downsample.cpp
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/downsample/downsample.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/util.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/typedef.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/memory.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/interface/IWelsVP.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/WelsFrameWork.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/WelsThreadLib.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/typedefs.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/macros.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/cpu.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/cpu_core.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/downsample/downsample.cpp329"CompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/downsample.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/downsample/downsample.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler22719f847a6fb941^e064b3847a6fb941^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/downsample/downsample.cpp0000000000000000^4315"CompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/downsample.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/downsample/downsample.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/yongzxu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DAPPLE_IOS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -mios-simulator-version-min=7.1 -iquote /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-generated-files.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-own-target-headers.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-all-target-headers.hmap -iquote /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-project-headers.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../processing/interface -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../processing/src/common -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/inc -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/arm64 -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/arm -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/DerivedSources/x86_64 -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/DerivedSources -F/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator -MMD -MT dependencies -MF /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/downsample.d --serialize-diagnostics /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/downsample.dia -c /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/downsample/downsample.cpp -o /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/downsample.o36"EADBC6EF-A155-4011-AFFF-EF49C5D09028-
+bA716EF59-4505-468E-AF80-2C6B71BDEF72
+
+CCompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/downsamplefuncs.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/downsample/downsamplefuncs.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s426736257.741368
+e426736257.867040
+r1
+xCompileC
+x/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/downsamplefuncs.o
+x/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/downsample/downsamplefuncs.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/downsample/downsamplefuncs.cpp
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/downsample/downsample.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/util.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/typedef.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/memory.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/interface/IWelsVP.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/WelsFrameWork.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/WelsThreadLib.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/typedefs.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/macros.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/downsample/downsamplefuncs.cpp339"CompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/downsamplefuncs.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/downsample/downsamplefuncs.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler7ae2bd817a6fb941^b29ce0817a6fb941^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/downsample/downsamplefuncs.cpp0000000000000000^4345"CompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/downsamplefuncs.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/downsample/downsamplefuncs.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/yongzxu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DAPPLE_IOS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -mios-simulator-version-min=7.1 -iquote /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-generated-files.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-own-target-headers.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-all-target-headers.hmap -iquote /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-project-headers.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../processing/interface -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../processing/src/common -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/inc -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/arm64 -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/arm -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/DerivedSources/x86_64 -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/DerivedSources -F/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator -MMD -MT dependencies -MF /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/downsamplefuncs.d --serialize-diagnostics /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/downsamplefuncs.dia -c /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/downsample/downsamplefuncs.cpp -o /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/downsamplefuncs.o36"95D71D11-2A00-4F99-8043-9EBA9B486E08-
+bA716EF59-4505-468E-AF80-2C6B71BDEF72
+
+CCompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/imagerotate.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/imagerotate/imagerotate.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s426736253.872410
+e426736253.978179
+r1
+xCompileC
+x/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/imagerotate.o
+x/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/imagerotate/imagerotate.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/imagerotate/imagerotate.cpp
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/imagerotate/imagerotate.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/util.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/typedef.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/memory.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/interface/IWelsVP.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/WelsFrameWork.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/WelsThreadLib.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/typedefs.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/imagerotate/imagerotate.cpp332"CompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/imagerotate.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/imagerotate/imagerotate.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilere772df7d7a6fb941^8b6dfa7d7a6fb941^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/imagerotate/imagerotate.cpp0000000000000000^4323"CompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/imagerotate.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/imagerotate/imagerotate.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/yongzxu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DAPPLE_IOS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -mios-simulator-version-min=7.1 -iquote /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-generated-files.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-own-target-headers.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-all-target-headers.hmap -iquote /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-project-headers.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../processing/interface -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../processing/src/common -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/inc -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/arm64 -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/arm -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/DerivedSources/x86_64 -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/DerivedSources -F/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator -MMD -MT dependencies -MF /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/imagerotate.d --serialize-diagnostics /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/imagerotate.dia -c /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/imagerotate/imagerotate.cpp -o /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/imagerotate.o36"AB70BA85-A29F-4688-9526-BD99EDA76865-
+bA716EF59-4505-468E-AF80-2C6B71BDEF72
+
+CCompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/imagerotatefuncs.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/imagerotate/imagerotatefuncs.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s426736259.881493
+e426736259.937199
+r1
+xCompileC
+x/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/imagerotatefuncs.o
+x/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/imagerotate/imagerotatefuncs.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/imagerotate/imagerotatefuncs.cpp
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/imagerotate/imagerotate.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/util.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/typedef.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/memory.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/interface/IWelsVP.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/WelsFrameWork.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/WelsThreadLib.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/typedefs.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/imagerotate/imagerotatefuncs.cpp342"CompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/imagerotatefuncs.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/imagerotate/imagerotatefuncs.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler05c3e1837a6fb941^42edef837a6fb941^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/imagerotate/imagerotatefuncs.cpp0000000000000000^4353"CompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/imagerotatefuncs.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/imagerotate/imagerotatefuncs.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/yongzxu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DAPPLE_IOS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -mios-simulator-version-min=7.1 -iquote /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-generated-files.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-own-target-headers.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-all-target-headers.hmap -iquote /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-project-headers.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../processing/interface -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../processing/src/common -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/inc -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/arm64 -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/arm -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/DerivedSources/x86_64 -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/DerivedSources -F/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator -MMD -MT dependencies -MF /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/imagerotatefuncs.d --serialize-diagnostics /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/imagerotatefuncs.dia -c /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/imagerotate/imagerotatefuncs.cpp -o /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/imagerotatefuncs.o36"17B275EF-3EBE-404C-A69C-AB49454A83B6-
+bA716EF59-4505-468E-AF80-2C6B71BDEF72
+
+CCompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/memory.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/memory.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s426736258.354929
+e426736258.454955
+r1
+xCompileC
+x/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/memory.o
+x/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/memory.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/memory.cpp
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/memory.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/util.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/typedef.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/interface/IWelsVP.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/memory.cpp317"CompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/memory.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/memory.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler30f65a827a6fb941^857874827a6fb941^---0#0#1#-19%DVTDocumentLocation2@83"file:///Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/memory.cpp0000000000000000^4283"CompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/memory.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/memory.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/yongzxu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DAPPLE_IOS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -mios-simulator-version-min=7.1 -iquote /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-generated-files.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-own-target-headers.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-all-target-headers.hmap -iquote /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-project-headers.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../processing/interface -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../processing/src/common -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/inc -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/arm64 -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/arm -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/DerivedSources/x86_64 -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/DerivedSources -F/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator -MMD -MT dependencies -MF /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/memory.d --serialize-diagnostics /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/memory.dia -c /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/memory.cpp -o /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/memory.o36"1B8AB9F5-0468-4AA8-9003-01CD1C8668FC-
+bA716EF59-4505-468E-AF80-2C6B71BDEF72
+
+CCompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/pixel_sad_neon.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/arm/pixel_sad_neon.S normal x86_64 assembler-with-cpp com.apple.compilers.llvm.clang.1_0.compiler
+s426736258.649518
+e426736258.666541
+r1
+xCompileC
+x/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/pixel_sad_neon.o
+x/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/arm/pixel_sad_neon.S
+xnormal
+xx86_64
+xassembler-with-cpp
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/arm/pixel_sad_neon.S
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/arm/pixel_sad_neon.S343"CompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/pixel_sad_neon.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/arm/pixel_sad_neon.S normal x86_64 assembler-with-cpp com.apple.compilers.llvm.clang.1_0.compiler465ea6827a6fb941^6aa3aa827a6fb941^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/arm/pixel_sad_neon.S0000000000000000^4209"CompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/pixel_sad_neon.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/arm/pixel_sad_neon.S normal x86_64 assembler-with-cpp com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x assembler-with-cpp -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fmodules -fmodules-cache-path=/Users/yongzxu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -DAPPLE_IOS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -mios-simulator-version-min=7.1 -iquote /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-generated-files.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-own-target-headers.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-all-target-headers.hmap -iquote /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-project-headers.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../processing/interface -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../processing/src/common -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/inc -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/arm64 -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/arm -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/DerivedSources/x86_64 -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/DerivedSources -F/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator -MMD -MT dependencies -MF /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/pixel_sad_neon.d --serialize-diagnostics /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/pixel_sad_neon.dia -c /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/arm/pixel_sad_neon.S -o /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/pixel_sad_neon.o36"3AD22BB0-D213-4775-9245-0FB95553E79B-
+bA716EF59-4505-468E-AF80-2C6B71BDEF72
+
+CCompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/vaa_calc_neon.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/arm/vaa_calc_neon.S normal x86_64 assembler-with-cpp com.apple.compilers.llvm.clang.1_0.compiler
+s426736253.632435
+e426736253.681353
+r1
+xCompileC
+x/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/vaa_calc_neon.o
+x/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/arm/vaa_calc_neon.S
+xnormal
+xx86_64
+xassembler-with-cpp
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/arm/vaa_calc_neon.S
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/arm/vaa_calc_neon.S341"CompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/vaa_calc_neon.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/arm/vaa_calc_neon.S normal x86_64 assembler-with-cpp com.apple.compilers.llvm.clang.1_0.compiler1904a27d7a6fb941^166dae7d7a6fb941^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/arm/vaa_calc_neon.S0000000000000000^4203"CompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/vaa_calc_neon.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/arm/vaa_calc_neon.S normal x86_64 assembler-with-cpp com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x assembler-with-cpp -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fmodules -fmodules-cache-path=/Users/yongzxu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -DAPPLE_IOS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -mios-simulator-version-min=7.1 -iquote /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-generated-files.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-own-target-headers.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-all-target-headers.hmap -iquote /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-project-headers.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../processing/interface -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../processing/src/common -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/inc -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/arm64 -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/arm -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/DerivedSources/x86_64 -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/DerivedSources -F/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator -MMD -MT dependencies -MF /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/vaa_calc_neon.d --serialize-diagnostics /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/vaa_calc_neon.dia -c /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/arm/vaa_calc_neon.S -o /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/vaa_calc_neon.o36"81CEAF67-B92A-4BF8-ACA6-9533D4BDD4E1-
+bA716EF59-4505-468E-AF80-2C6B71BDEF72
+
+CCompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/vaacalcfuncs.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/vaacalc/vaacalcfuncs.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s426736256.693572
+e426736256.749555
+r1
+xCompileC
+x/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/vaacalcfuncs.o
+x/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/vaacalc/vaacalcfuncs.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/vaacalc/vaacalcfuncs.cpp
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/util.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/typedef.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/memory.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/interface/IWelsVP.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/vaacalc/vaacalcfuncs.cpp330"CompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/vaacalcfuncs.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/vaacalc/vaacalcfuncs.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler76a5b1807a6fb941^19e3bf807a6fb941^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/vaacalc/vaacalcfuncs.cpp0000000000000000^4321"CompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/vaacalcfuncs.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/vaacalc/vaacalcfuncs.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/yongzxu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DAPPLE_IOS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -mios-simulator-version-min=7.1 -iquote /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-generated-files.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-own-target-headers.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-all-target-headers.hmap -iquote /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-project-headers.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../processing/interface -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../processing/src/common -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/inc -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/arm64 -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/arm -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/DerivedSources/x86_64 -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/DerivedSources -F/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator -MMD -MT dependencies -MF /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/vaacalcfuncs.d --serialize-diagnostics /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/vaacalcfuncs.dia -c /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/vaacalc/vaacalcfuncs.cpp -o /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/vaacalcfuncs.o36"CBA2E58D-36BD-4E60-9576-288B60BC9541-
+bA716EF59-4505-468E-AF80-2C6B71BDEF72
+
+CCompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/vaacalculation.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/vaacalc/vaacalculation.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s426736252.286756
+e426736253.237086
+r1
+xCompileC
+x/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/vaacalculation.o
+x/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/vaacalc/vaacalculation.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/vaacalc/vaacalculation.cpp
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/vaacalc/vaacalculation.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/util.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/typedef.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/memory.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/interface/IWelsVP.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/common/WelsFrameWork.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/WelsThreadLib.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/typedefs.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/cpu.h
+d/Users/yongzxu/Desktop/openh264_xcode/codec/common/inc/cpu_core.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/vaacalc/vaacalculation.cpp334"CompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/vaacalculation.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/vaacalc/vaacalculation.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler6d8c497c7a6fb941^44a63c7d7a6fb941^---0#0#1#-19%DVTDocumentLocation2@92"file:///Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/vaacalc/vaacalculation.cpp0000000000000000^4333"CompileC /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/vaacalculation.o /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/vaacalc/vaacalculation.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/yongzxu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DAPPLE_IOS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -mios-simulator-version-min=7.1 -iquote /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-generated-files.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-own-target-headers.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-all-target-headers.hmap -iquote /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/processing-project-headers.hmap -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../processing/interface -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../processing/src/common -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/inc -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/arm64 -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing/../../../common/arm -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/DerivedSources/x86_64 -I/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/DerivedSources -F/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator -MMD -MT dependencies -MF /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/vaacalculation.d --serialize-diagnostics /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/vaacalculation.dia -c /Users/yongzxu/Desktop/openh264_xcode/codec/processing/src/vaacalc/vaacalculation.cpp -o /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/vaacalculation.o36"00575D53-70E2-47B6-819C-07EC89FE3BBD-
+bA716EF59-4505-468E-AF80-2C6B71BDEF72
+
+CLibtool /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator/libprocessing.a normal x86_64
+s426736261.562540
+e426736261.615480
+r1
+xLibtool
+x/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator/libprocessing.a
+xnormal
+xx86_64
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/vaa_calc_neon.o has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/adaptive_quantization.o has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/pixel_sad_neon.o has no symbols
+o/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/down_sample_neon.o has no symbols
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection137"Libtool /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator/libprocessing.a normal x86_64137"Libtool /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator/libprocessing.a normal x86_646a1690857a6fb941^938f9d857a6fb941^-1347"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/vaa_calc_neon.o has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/adaptive_quantization.o has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/pixel_sad_neon.o has no symbols/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: file: /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/down_sample_neon.o has no symbols-0#0#1#--1144"Libtool /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator/libprocessing.a normal x86_64    cd /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/processing    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator -filelist /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Intermediates/processing.build/Debug-iphonesimulator/processing.build/Objects-normal/x86_64/processing.LinkFileList -ObjC -framework Foundation -o /Users/yongzxu/Desktop/openh264_xcode/codec/build/iOS/openh264/Build/Products/Debug-iphonesimulator/libprocessing.a36"A059367F-8E74-4DFC-BD20-DE6CED5FA2B0-
+bA716EF59-4505-468E-AF80-2C6B71BDEF72
+
