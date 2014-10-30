@@ -484,13 +484,9 @@ typedef struct TagVideoDecoderStatistics {
   unsigned int uiWidth;					// the width of encode/decode frame
   unsigned int uiHeight;					// the height of encode/decode frame
   float fAverageFrameSpeedInMs; // Average_Decoding_Time
-
   unsigned int uiDecodedFrameCount; // number of frames
   unsigned int uiResolutionChangeTimes; // uiResolutionChangeTimes
-  unsigned int
-  uiAvgEcRatio; // when EC is on, the average ratio of correct or EC areas, can be an indicator of reconstruction quality
-  unsigned int uiIDRReqNum;	// number of actual IDR request
-  unsigned int uiLTRReqNum;	// number of actual LTR request
+  unsigned int uiAvgEcRatio; // when EC is on, the average ratio of correct or EC areas, can be an indicator of reconstruction quality
   unsigned int uiIDRRecvNum;	// number of actual IDR received
   bool bErrorConcealed; // The constructed or output frame is ECed 
   unsigned int uiFrameRecvNum;

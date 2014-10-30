@@ -84,7 +84,15 @@ static inline int32_t DecodeFrameConstruction (PWelsDecoderContext pCtx, uint8_t
              && (pCtx->iErrorCode == dsErrorFree)) { //complete non-ECed IDR frame done
     pCtx->pDec->bIsComplete = true;
   }
-
+  if(pCtx->bInstantDecFlag)
+  {
+	  if(bFrameCompleteFlag)
+	  {
+		  pCtx->sDecoderStatistics.uiFrameRecvNum++;
+		  if(pCurDq->sLayerInfo.sNalHeaderExt.bIdrFlag)
+			  pCtx->sDecoderStatistics.uiIDRRecvNum++;
+	  }
+  }
   pCtx->iTotalNumMbRec = 0;
 
   //////output:::normal path
@@ -2034,6 +2042,10 @@ bool CheckAndFinishLastPic (PWelsDecoderContext pCtx, uint8_t** ppDst, SBufferIn
   if ((pCtx->iTotalNumMbRec != 0)
       && (CheckAccessUnitBoundaryExt (&pCtx->sLastNalHdrExt, &pCurNal->sNalHeaderExt, &pCtx->sLastSliceHeader,
                                       &pCurNal->sNalData.sVclNal.sSliceHeaderExt.sSliceHeader))) {
+
+	pCtx->sDecoderStatistics.uiFrameRecvNum++;
+	if( pCtx->sLastNalHdrExt.bIdrFlag)
+		 pCtx->sDecoderStatistics.uiIDRRecvNum++;
     //Do Error Concealment here
     if (NeedErrorCon (pCtx)) { //should always be true!
       if (pCtx->eErrorConMethod != ERROR_CON_DISABLE) {
@@ -2041,7 +2053,6 @@ bool CheckAndFinishLastPic (PWelsDecoderContext pCtx, uint8_t** ppDst, SBufferIn
         pCtx->iTotalNumMbRec = pCtx->pSps->iMbWidth * pCtx->pSps->iMbHeight;
         pCtx->pDec->iSpsId = pCtx->pSps->iSpsId;
         pCtx->pDec->iPpsId = pCtx->pPps->iPpsId;
-
         DecodeFrameConstruction (pCtx, ppDst, pDstInfo);
         if (pCtx->sLastNalHdrExt.sNalUnitHeader.uiNalRefIdc > 0) {
           pCtx->pPreviousDecodedPictureInDpb = pCtx->pDec; //save ECed pic for future use

@@ -536,18 +536,7 @@ int32_t WelsDecodeBs (PWelsDecoderContext pCtx, const uint8_t* kpBsBuf, const in
       iRet = ParseNonVclNal (pCtx, pNalPayload, iDstIdx - iConsumedBytes);
     }
     if (pCtx->bAuReadyFlag) {
-
-	 /* if(pCtx->bInstantDecFlag)
-		{
-			pCtx->sDecoderStatistics.uiFrameRecvNum++;
-			PAccessUnit pCurAu = pCtx->pAccessUnitList;
-			for (unsigned int i = pCurAu->uiStartPos; i <= pCurAu->uiEndPos; i++) {
-
-				 if ((pCurAu->pNalUnitsList[i]->sNalHeaderExt.sNalUnitHeader.eNalUnitType == NAL_UNIT_CODED_SLICE_IDR)
-					|| (pCurAu->pNalUnitsList[i]->sNalHeaderExt.bIdrFlag))
-							 pCtx->sDecoderStatistics.uiIDRRecvNum++;
-		 }
-	    }*/
+	
       ConstructAccessUnit (pCtx, ppDst, pDstBufInfo);
 
       if ((dsOutOfMemory | dsNoParamSets) & pCtx->iErrorCode) {
@@ -583,15 +572,6 @@ int32_t WelsDecodeBs (PWelsDecoderContext pCtx, const uint8_t* kpBsBuf, const in
       return pCtx->iErrorCode;
     } else {
       pCtx->pAccessUnitList->uiEndPos = pCtx->pAccessUnitList->uiAvailUnitsNum - 1;
-
-	  pCtx->sDecoderStatistics.uiFrameRecvNum++;
-	  PAccessUnit pCurAu = pCtx->pAccessUnitList;
-      for (unsigned int i = pCurAu->uiStartPos; i <= pCurAu->uiEndPos; i++) {
-
-      if ((pCurAu->pNalUnitsList[i]->sNalHeaderExt.sNalUnitHeader.eNalUnitType == NAL_UNIT_CODED_SLICE_IDR)
-        || (pCurAu->pNalUnitsList[i]->sNalHeaderExt.bIdrFlag))
-      pCtx->sDecoderStatistics.uiIDRRecvNum++;
-      }
 			
       ConstructAccessUnit (pCtx, ppDst, pDstBufInfo);
 

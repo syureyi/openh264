@@ -377,8 +377,6 @@ long CWelsDecoder::GetOption (DECODER_OPTION eOptID, void* pOption) {
 	  pDecoderStatistics->uiHeight = m_pDecContext->sDecoderStatistics.uiHeight;
 	  pDecoderStatistics->uiWidth = m_pDecContext->sDecoderStatistics.uiWidth;
 	  pDecoderStatistics->uiIDRRecvNum = m_pDecContext->sDecoderStatistics.uiIDRRecvNum;
-	  pDecoderStatistics->uiIDRReqNum = m_pDecContext->sDecoderStatistics.uiIDRReqNum;
-	  pDecoderStatistics->uiLTRReqNum = m_pDecContext->sDecoderStatistics.uiLTRReqNum;
 	  pDecoderStatistics->uiFrameRecvNum = m_pDecContext->sDecoderStatistics.uiFrameRecvNum;
 	  pDecoderStatistics->uiResolutionChangeTimes = m_pDecContext->sDecoderStatistics.uiResolutionChangeTimes;
 	  pDecoderStatistics->fAverageFrameSpeedInMs = (m_pDecContext->dDecTime)/( m_pDecContext->sDecoderStatistics.uiDecodedFrameCount);
@@ -491,7 +489,7 @@ DECODING_STATE CWelsDecoder::DecodeFrame2 (const unsigned char* kpSrc,
 	  m_pDecContext->sDecoderStatistics.uiDecodedFrameCount++;
 	  m_pDecContext->sDecoderStatistics.bErrorConcealed = true;
 	  iEnd = WelsTime();
-	  m_pDecContext->dDecTime += (iEnd - iStart)/1e6;
+	  m_pDecContext->dDecTime += (iEnd - iStart)/1e3;
     }
 
     return (DECODING_STATE) m_pDecContext->iErrorCode;
@@ -509,7 +507,7 @@ DECODING_STATE CWelsDecoder::DecodeFrame2 (const unsigned char* kpSrc,
 	  }
 	  m_pDecContext->sDecoderStatistics.uiDecodedFrameCount++;
 	  iEnd = WelsTime();
-	  m_pDecContext->dDecTime += (iEnd - iStart)/1e6;
+	  m_pDecContext->dDecTime += (iEnd - iStart)/1e3;
 	  m_pDecContext->sDecoderStatistics.uiAvgEcRatio = 0;
       m_pDecContext->sDecoderStatistics.bErrorConcealed = false;
 

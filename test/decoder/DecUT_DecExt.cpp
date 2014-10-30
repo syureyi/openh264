@@ -125,8 +125,10 @@ void DecoderInterfaceTest::TestGetDecStatistics()
   Init();
   eRet=(CM_RETURN)m_pDec->SetOption(DECODER_OPTION_GET_STATISTICS,NULL);
   EXPECT_EQ (eRet, cmResultSuccess);
+  //EC on UT
+  {
   m_pDec->SetOption(DECODER_OPTION_ERROR_CON_IDC,&iError);
-   // EC error bs
+   // error bs
   uint8_t uiStartCode[4] = {0, 0, 0, 1};
   FILE* pH264File	= fopen ("res/test.264", "rb");
   fseek (pH264File, 0L, SEEK_END);
@@ -150,6 +152,76 @@ void DecoderInterfaceTest::TestGetDecStatistics()
     }
   iSliceSize = i;	
   m_pDec->DecodeFrame2 (pBuf + iBufPos, iSliceSize, m_pData, &m_sBufferInfo);
+   if(m_sBufferInfo.iBufferStatus ==1)
+  {
+	iFrameCount++;
+	switch(iFrameCount)
+		{
+		case 1:
+			m_pDec->GetOption(DECODER_OPTION_GET_STATISTICS,&sDecStatic);
+			EXPECT_TRUE(sDecStatic.bErrorConcealed);
+			EXPECT_EQ(66,sDecStatic.uiAvgEcRatio);
+			EXPECT_EQ(1,sDecStatic.uiDecodedFrameCount);
+			EXPECT_EQ(1,sDecStatic.uiFrameRecvNum);
+			EXPECT_EQ(288,sDecStatic.uiHeight);
+			EXPECT_EQ(1,sDecStatic.uiIDRRecvNum);
+			EXPECT_EQ(1,sDecStatic.uiResolutionChangeTimes);
+			EXPECT_EQ(352,sDecStatic.uiWidth);
+			break;
+		case 2:
+			iError = 1;
+			m_pDec->SetOption(DECODER_OPTION_ERROR_CON_IDC,&iError);
+			m_pDec->GetOption(DECODER_OPTION_GET_STATISTICS,&sDecStatic);
+			EXPECT_TRUE(sDecStatic.bErrorConcealed);
+			EXPECT_EQ(66,sDecStatic.uiAvgEcRatio);
+			EXPECT_EQ(1,sDecStatic.uiDecodedFrameCount);
+			EXPECT_EQ(1,sDecStatic.uiFrameRecvNum);
+			EXPECT_EQ(288,sDecStatic.uiHeight);
+			EXPECT_EQ(0,sDecStatic.uiIDRRecvNum);
+			EXPECT_EQ(1,sDecStatic.uiResolutionChangeTimes);
+			EXPECT_EQ(352,sDecStatic.uiWidth);
+			break;
+		case 3:
+			m_pDec->GetOption(DECODER_OPTION_GET_STATISTICS,&sDecStatic);
+			EXPECT_FALSE(sDecStatic.bErrorConcealed);
+			EXPECT_EQ(0,sDecStatic.uiAvgEcRatio);
+			EXPECT_EQ(1,sDecStatic.uiDecodedFrameCount);
+			EXPECT_EQ(1,sDecStatic.uiFrameRecvNum);
+			EXPECT_EQ(480,sDecStatic.uiHeight);
+			EXPECT_EQ(1,sDecStatic.uiIDRRecvNum);
+			EXPECT_EQ(1,sDecStatic.uiResolutionChangeTimes);
+			EXPECT_EQ(640,sDecStatic.uiWidth);
+			break;
+		case 4:
+			break;
+		case 5:
+			m_pDec->GetOption(DECODER_OPTION_GET_STATISTICS,&sDecStatic);
+			EXPECT_TRUE(sDecStatic.bErrorConcealed);
+			EXPECT_EQ(100,sDecStatic.uiAvgEcRatio);
+			EXPECT_EQ(2,sDecStatic.uiDecodedFrameCount);
+			EXPECT_EQ(2,sDecStatic.uiFrameRecvNum);
+			EXPECT_EQ(288,sDecStatic.uiHeight);
+			EXPECT_EQ(1,sDecStatic.uiIDRRecvNum);
+			EXPECT_EQ(2,sDecStatic.uiResolutionChangeTimes);
+			EXPECT_EQ(352,sDecStatic.uiWidth);			
+			m_pDec->GetOption(DECODER_OPTION_GET_STATISTICS,&sDecStatic);
+			EXPECT_FALSE(sDecStatic.bErrorConcealed);
+			EXPECT_EQ(0,sDecStatic.uiAvgEcRatio);
+            EXPECT_EQ(0,sDecStatic.uiDecodedFrameCount);
+			EXPECT_EQ(0,sDecStatic.uiFrameRecvNum);
+            EXPECT_EQ(0,sDecStatic.uiHeight);
+            EXPECT_EQ(0,sDecStatic.uiIDRRecvNum);
+            EXPECT_EQ(0,sDecStatic.uiResolutionChangeTimes);
+            EXPECT_EQ(0,sDecStatic.uiWidth);
+			break;
+		default:
+			break;
+
+
+		}
+		
+	}
+  m_pDec->DecodeFrame2 (NULL, 0, m_pData, &m_sBufferInfo);
   if(m_sBufferInfo.iBufferStatus ==1)
   {
 	iFrameCount++;
@@ -171,7 +243,6 @@ void DecoderInterfaceTest::TestGetDecStatistics()
 			m_pDec->SetOption(DECODER_OPTION_ERROR_CON_IDC,&iError);
 			m_pDec->GetOption(DECODER_OPTION_GET_STATISTICS,&sDecStatic);
 			EXPECT_TRUE(sDecStatic.bErrorConcealed);
-			EXPECT_LT(0,sDecStatic.fAverageFrameSpeedInMs);
 			EXPECT_EQ(66,sDecStatic.uiAvgEcRatio);
 			EXPECT_EQ(1,sDecStatic.uiDecodedFrameCount);
 			EXPECT_EQ(1,sDecStatic.uiFrameRecvNum);
@@ -183,7 +254,6 @@ void DecoderInterfaceTest::TestGetDecStatistics()
 		case 3:
 			m_pDec->GetOption(DECODER_OPTION_GET_STATISTICS,&sDecStatic);
 			EXPECT_FALSE(sDecStatic.bErrorConcealed);
-			EXPECT_GT(1,sDecStatic.fAverageFrameSpeedInMs);
 			EXPECT_EQ(0,sDecStatic.uiAvgEcRatio);
 			EXPECT_EQ(1,sDecStatic.uiDecodedFrameCount);
 			EXPECT_EQ(1,sDecStatic.uiFrameRecvNum);
@@ -203,19 +273,16 @@ void DecoderInterfaceTest::TestGetDecStatistics()
 			EXPECT_EQ(288,sDecStatic.uiHeight);
 			EXPECT_EQ(1,sDecStatic.uiIDRRecvNum);
 			EXPECT_EQ(2,sDecStatic.uiResolutionChangeTimes);
-			EXPECT_EQ(352,sDecStatic.uiWidth);
-			
-
-			
+			EXPECT_EQ(352,sDecStatic.uiWidth);			
 			m_pDec->GetOption(DECODER_OPTION_GET_STATISTICS,&sDecStatic);
 			EXPECT_FALSE(sDecStatic.bErrorConcealed);
 			EXPECT_EQ(0,sDecStatic.uiAvgEcRatio);
-           EXPECT_EQ(0,sDecStatic.uiDecodedFrameCount);
-   EXPECT_EQ(0,sDecStatic.uiFrameRecvNum);
-   EXPECT_EQ(0,sDecStatic.uiHeight);
-   EXPECT_EQ(0,sDecStatic.uiIDRRecvNum);
-   EXPECT_EQ(0,sDecStatic.uiResolutionChangeTimes);
-   EXPECT_EQ(0,sDecStatic.uiWidth);
+            EXPECT_EQ(0,sDecStatic.uiDecodedFrameCount);
+			EXPECT_EQ(0,sDecStatic.uiFrameRecvNum);
+            EXPECT_EQ(0,sDecStatic.uiHeight);
+            EXPECT_EQ(0,sDecStatic.uiIDRRecvNum);
+            EXPECT_EQ(0,sDecStatic.uiResolutionChangeTimes);
+            EXPECT_EQ(0,sDecStatic.uiWidth);
 			break;
 		default:
 			break;
@@ -228,6 +295,7 @@ void DecoderInterfaceTest::TestGetDecStatistics()
   ++ iSliceIndex;
    }
    fclose(pH264File);
+   }//EC enable 
   
 
 
