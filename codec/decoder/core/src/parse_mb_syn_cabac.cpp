@@ -840,7 +840,7 @@ int32_t ParseResidualBlockCabac (PWelsNeighAvail pNeighAvail, uint8_t* pNonZeroC
         sTCoeff[pScanTable[j]] = pSignificantMap[j];
       ++j;
     } while (j < 16);
-  } else if ((iResProperty == CHROMA_DC_U) || (iResProperty == CHROMA_DC_V)) {
+  } else if (iResProperty == CHROMA_DC_U) {
     do {
       if (pSignificantMap[j] != 0)
         sTCoeff[pScanTable[j]] = pCtx->bUseScalingList ? (pSignificantMap[j] * pDeQuantMul[0]) >> 4 :
