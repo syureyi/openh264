@@ -1,15 +1,5 @@
-                           
-<style>                          
-.env {                              
-    font: 25px bold;             
-}                                
-}</style>
+
 <br><font class=env>Decoder FPS on  Ipad Air (IOS 7.1)</font>
-<style>
-.fail {
-    background-color: yellow;
-}
-</style>
 <br>
    <table  style="width:600px" cellspacing="0" border="1" width="100%">
     <thead>
@@ -24,18 +14,7 @@
 </tbody>
 </table>
 <br>
-                           
-<style>                          
-.env {                              
-    font: 25px bold;             
-}                                
-}</style>
-<br><font class=env>Encoder FPS on  Ipad Air (IOS 7.1)</font>
-<style> 
-.fail { 
-    background-color: yellow;                                                   
-}       
-</style>                                                                        
+<br><font class=env>Encoder FPS on  Ipad Air (IOS 7.1)</font>       
 <br>    
    <table  style="width:600px" cellspacing="0" border="1" width="100%">         
     <thead>                                                                     
