@@ -93,7 +93,7 @@ void H264DecodeInstance (ISVCDecoder* pDecoder, const char* kpH264FileName, cons
   int32_t iEndOfStreamFlag = 0;
   int32_t iColorFormat = videoFormatInternal;
   //for coverage test purpose
-  int32_t iErrorConMethod = (int32_t) ERROR_CON_SLICE_MV_COPY_CROSS_IDR_FREEZE_RES_CHANGE;
+  int32_t iErrorConMethod = (int32_t) ERROR_CON_SLICE_MV_COPY_CROSS_IDR;
   pDecoder->SetOption (DECODER_OPTION_ERROR_CON_IDC, &iErrorConMethod);
   //~end for
   CUtils cOutputModule;
@@ -217,6 +217,8 @@ void H264DecodeInstance (ISVCDecoder* pDecoder, const char* kpH264FileName, cons
     uiTimeStamp ++;
     memset (&sDstBufInfo, 0, sizeof (SBufferInfo));
     sDstBufInfo.uiInBsTimeStamp = uiTimeStamp;
+      uint32_t uiTraceLevel= static_cast<uint32_t>(WELS_LOG_DETAIL);
+      pDecoder->SetOption(DECODER_OPTION_TRACE_LEVEL, &uiTraceLevel);
 #ifndef NO_DELAY_DECODING
     pDecoder->DecodeFrameNoDelay (pBuf + iBufPos, iSliceSize, pData, &sDstBufInfo);
 #else

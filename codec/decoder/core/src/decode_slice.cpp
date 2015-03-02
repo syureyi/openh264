@@ -264,6 +264,7 @@ int32_t WelsMbIntraPredictionConstruction (PWelsDecoderContext pCtx, PDqLayer pC
   return 0;
 }
 
+
 int32_t WelsMbInterPrediction (PWelsDecoderContext pCtx, PDqLayer pCurLayer) {
   int32_t iMbX = pCurLayer->iMbX;
   int32_t iMbY = pCurLayer->iMbY;
@@ -277,7 +278,6 @@ int32_t WelsMbInterPrediction (PWelsDecoderContext pCtx, PDqLayer pCurLayer) {
   pDstCr = pCurLayer->pDec->pData[2] + ((iMbY * iChromaStride + iMbX) << 3);
 
   GetInterPred (pDstY, pDstCb, pDstCr, pCtx);
-
   return 0;
 }
 

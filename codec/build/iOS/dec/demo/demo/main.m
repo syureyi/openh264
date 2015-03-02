@@ -111,11 +111,11 @@ int AutoTestDec() {
 int main (int argc, char* argv[]) {
   //***For auto testing of decoder performance, call auto test here, if you not want to do auto test, you can comment it manualy
 
-  if (AutoTestDec() == 0)
+  /**if (AutoTestDec() == 0)
     NSLog (@"Auto testing running sucessfully");
   else
     NSLog (@"Auto testing running failed");
-  abort();
+  abort();**/
   //********
 
   @autoreleasepool {

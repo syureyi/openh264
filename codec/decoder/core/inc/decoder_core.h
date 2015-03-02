@@ -107,6 +107,7 @@ void UninitialDqLayersContext (PWelsDecoderContext pCtx);
  */
 void DecodeNalHeaderExt (PNalUnit pNal, uint8_t* pSrc);
 
+
 /*
  *	ParseSliceHeaderSyntaxs
  *	Parse slice header of bitstream

@@ -146,12 +146,14 @@ extern int DecMain(int argc, char * argv[]);
 {
     char *argv[3];//0 for exe name, 1 for resource input, 2 for output yuvfile
     int  argc = 3;
-    NSString *fileName = [[self.resFileArray objectAtIndex:index] lastPathComponent];
-    NSString *outputFileName = [[fileName stringByDeletingPathExtension] stringByAppendingPathExtension:@"yuv"];
-    NSString *outputFilePath = [[[self.resFileArray objectAtIndex:index] stringByDeletingLastPathComponent] stringByAppendingPathComponent:outputFileName];
+    //NSString *fileName = [[self.resFileArray objectAtIndex:index] lastPathComponent];
+    //NSString *outputFileName = [[fileName stringByDeletingPathExtension] stringByAppendingPathExtension:@"yuv"];
+    //NSString *outputFilePath = [[[self.resFileArray objectAtIndex:index] stringByDeletingLastPathComponent] stringByAppendingPathComponent:outputFileName];
     argv[0] = (char *)("decConsole.exe");
-    argv[1] = (char *)[[self.resFileArray objectAtIndex:index] UTF8String]; //input resouce file path
-    argv[2] = (char *)[outputFilePath UTF8String]; //output file path
+    argv[1] = (char *)("/Users/zhuiling/Desktop/work_openh264/openh264/test.264");
+    argv[2] = (char *)("/Users/zhuiling/Desktop/work_openh264/openh264/test.yuv");
+   // argv[1] = (char *)[[self.resFileArray objectAtIndex:index] UTF8String]; //input resouce file path
+   // argv[2] = (char *)[outputFilePath UTF8String]; //output file path
     if (bEnableFlag == NO) {
         return NO;
     }

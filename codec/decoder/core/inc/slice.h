@@ -68,7 +68,7 @@ struct {
   bool	bLumaWeightFlag;
   bool	bChromaWeightFlag;
 } sPredList[LIST_A];
-} SPredWeightTabSyn;
+} SPredWeightTabSyn,*PPredWeightTabSyn;
 
 /* Decoded reference picture marking syntax, refer to Page 66 in JVT X201wcm */
 typedef struct TagRefPicMarking {
@@ -108,6 +108,7 @@ int32_t		iDeltaPicOrderCntBottom;
 int32_t		iDeltaPicOrderCnt[2];
 int32_t		iRedundantPicCnt;
 int32_t		uiRefCount[LIST_A];
+
 int32_t		iSliceQpDelta;	//no use for iSliceQp is used directly
 int32_t		iSliceQp;
 int32_t		iSliceQsDelta;	// For SP/SI slices
